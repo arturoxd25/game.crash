@@ -1,0 +1,190 @@
+----------------------------------------
+Crash log created on: Thu Dec 31 23:09:14 2015
+Build: 1.22.2.3s c00db871756e
+OS: x86 / Windows 7 x64 (version 6.1) / Service Pack 1
+CPU:        Intel(R) Core(TM) i5-2410M CPU @ 2.30GHz at 2294000
+MEM: Phys:4043 Virt:4095
+GPU: Radeon (TM) HD 6770M Mem:1012 Ver: ()
+
+AvailMEM Virt:2414 Phys:812 Total:2094
+TotalMEM Virt:4095 Phys:4043 Total:8085
+Exception code: C0000005 ACCESS_VIOLATION
+EXE Base address: 003B0000
+Fault address: 009FA5CB 0001:006495CB D:\Program Files (x86)\Steam\steamapps\common\Euro Truck Simulator 2\bin\win_x86\eurotrucks2.exe
+
+Registers:
+EAX:00000000
+EBX:02359824
+ECX:0948FBD0
+EDX:07BCFBB0
+ESI:00000002
+EDI:0000000B
+CS:EIP: 0023:009FA5CB
+SS:ESP: 002B:1E4FE904 EBP:1E4FE924
+DS:002B  ES:002B  FS:0053  GS:002B
+Flags: 00010202
+EIP preamble: 46 89 75 F4 3B 73 0C 0F 82 2B FF FF FF 8B 45 08
+              F7 40 3C 00 00 80 00 0F 85 A9 00 00 00 8B 45 FC
+              33 FF 39 78 58 0F 86 9B 00 00 00 83 C0 34 89 45
+              EC 8D 64 24 00 57 8B C8 E8 28 A0 E8 FF 8B 40 08
+EIP bytecode: 8B 48 0C 85 C9 74 14 8D 41 10 85 C0 74 28 83 C1
+              14 E8 5F 37 A3 FF 89 45 08 EB 2E 8B 48 08 85 C9
+              74 20 8D 41 10 85 C0 74 0D 83 C1 14 E8 44 37 A3
+              FF 89 45 08 EB 13 33 C9 E8 38 37 A3 FF 89 45 08
+
+Call stack (IMH):
+Address   Frame
+009FA5CB  00000000  0001:006495CB D:\Program Files (x86)\Steam\steamapps\common\Euro Truck Simulator 2\bin\win_x86\eurotrucks2.exe
+009FA710  00000000  0001:00649710 D:\Program Files (x86)\Steam\steamapps\common\Euro Truck Simulator 2\bin\win_x86\eurotrucks2.exe
+009B42C2  00000000  0001:006032C2 D:\Program Files (x86)\Steam\steamapps\common\Euro Truck Simulator 2\bin\win_x86\eurotrucks2.exe
+009B3D8D  00000000  0001:00602D8D D:\Program Files (x86)\Steam\steamapps\common\Euro Truck Simulator 2\bin\win_x86\eurotrucks2.exe
+006CC3F6  00000000  0001:0031B3F6 D:\Program Files (x86)\Steam\steamapps\common\Euro Truck Simulator 2\bin\win_x86\eurotrucks2.exe
+0043E4DE  00000000  0001:0008D4DE D:\Program Files (x86)\Steam\steamapps\common\Euro Truck Simulator 2\bin\win_x86\eurotrucks2.exe
+00D97F3A  00000000  0001:009E6F3A D:\Program Files (x86)\Steam\steamapps\common\Euro Truck Simulator 2\bin\win_x86\eurotrucks2.exe
+00D98062  00000000  0001:009E7062 D:\Program Files (x86)\Steam\steamapps\common\Euro Truck Simulator 2\bin\win_x86\eurotrucks2.exe
+74BA337A  00000000  BaseThreadInitThunk+12
+77119882  00000000  RtlInitializeExceptionChain+63
+77119855  00000000  RtlInitializeExceptionChain+36
+
+
+Call stack (RTL):
+Address   Logical addr  Module
+006CDB05  0001:0031CB05 D:\Program Files (x86)\Steam\steamapps\common\Euro Truck Simulator 2\bin\win_x86\eurotrucks2.exe
+006CCF12  0001:0031BF12 D:\Program Files (x86)\Steam\steamapps\common\Euro Truck Simulator 2\bin\win_x86\eurotrucks2.exe
+600125AF  0001:000115AF D:\Program Files (x86)\Steam\CSERHelper.dll
+7715344F  0001:0006344F C:\Windows\SysWOW64\ntdll.dll
+77119855  0001:00029855 C:\Windows\SysWOW64\ntdll.dll
+
+
+Call stack (i386):
+Address   Frame     Logical addr  Module
+009FA5CB  1E4FE924  0001:006495CB D:\Program Files (x86)\Steam\steamapps\common\Euro Truck Simulator 2\bin\win_x86\eurotrucks2.exe
+009FA710  1E4FFE54  0001:00649710 D:\Program Files (x86)\Steam\steamapps\common\Euro Truck Simulator 2\bin\win_x86\eurotrucks2.exe
+009B42C2  1E4FFE70  0001:006032C2 D:\Program Files (x86)\Steam\steamapps\common\Euro Truck Simulator 2\bin\win_x86\eurotrucks2.exe
+009B3D8D  1E4FFE88  0001:00602D8D D:\Program Files (x86)\Steam\steamapps\common\Euro Truck Simulator 2\bin\win_x86\eurotrucks2.exe
+006CC3F6  1E4FFEA8  0001:0031B3F6 D:\Program Files (x86)\Steam\steamapps\common\Euro Truck Simulator 2\bin\win_x86\eurotrucks2.exe
+0043E4DE  1E4FFEB8  0001:0008D4DE D:\Program Files (x86)\Steam\steamapps\common\Euro Truck Simulator 2\bin\win_x86\eurotrucks2.exe
+00D97F3A  1E4FFEF0  0001:009E6F3A D:\Program Files (x86)\Steam\steamapps\common\Euro Truck Simulator 2\bin\win_x86\eurotrucks2.exe
+00D98062  1E4FFEFC  0001:009E7062 D:\Program Files (x86)\Steam\steamapps\common\Euro Truck Simulator 2\bin\win_x86\eurotrucks2.exe
+74BA337A  1E4FFF08  0001:0000337A C:\Windows\syswow64\kernel32.dll
+77119882  1E4FFF48  0001:00029882 C:\Windows\SysWOW64\ntdll.dll
+77119855  1E4FFF60  0001:00029855 C:\Windows\SysWOW64\ntdll.dll
+
+Stack:
+  3E 39 27 7D 24 98 35 02 10 00 00 00 AC E8 4F 1E B8 0D F8 06 01 00 00 00 B8 0E F8 06 B8 E8 4F 1E
+  13 E0 10 77 10 00 00 00 58 98 35 02 B0 FB BC 07 B8 0E F8 06 CC E8 4F 1E BD 14 BA 74 00 00 66 01
+  00 00 00 00 C0 0E F8 06 E0 E8 4F 1E 5B 7F D5 00 00 00 66 01 00 00 00 00 C0 0E F8 06 F8 E8 4F 1E
+  F4 E8 4F 1E FD 00 41 00 D8 FB BC 07 0B 00 00 00 02 00 00 00 24 E9 4F 1E C8 A5 9F 00 0B 00 00 00
+> 9C FB 48 09 50 E8 E3 09 A4 53 CC 18 D0 FB 48 09 30 10 36 80 02 00 00 00 02 00 00 00 9C FB 48 09
+  54 FE 4F 1E 10 A7 9F 00 00 00 00 00 A4 53 CC 18 50 E8 E3 09 C0 22 10 77 0F 15 19 ED 3B C8 D3 6D
+  E5 C0 E5 04 9E 5F F7 4D C5 48 86 51 CF 80 AA BC 6C 49 C1 68 38 44 36 07 B6 1F 90 36 B7 8E BB DB
+  C2 CE 23 F0 96 D1 87 7B D3 FC 10 F0 5F 53 4B 68 D6 67 6E E9 84 30 96 AD 05 32 F4 3D 60 6F C7 0E
+  EA 42 0A 5F 01 83 2F 13 3C 9F 66 D8 90 0E 39 74 4F 8C 8D 01 07 E2 9F 95 D2 62 8E A4 AF A1 1B 30
+  8B 5B F2 63 F8 CC FB C5 2D 1B D7 1B 36 AC BA 46 01 47 06 67 D4 EB A4 27 A2 FA 28 45 17 22 2C B8
+  91 54 8F 15 07 66 CC F1 D0 C1 E9 CA B6 EB 8D F9 79 F8 E2 8B FA 17 EF 4B 9A BF 25 58 D7 1F 91 C7
+  16 D3 89 8F EF BA DA FB 75 23 58 6B 25 B9 69 D4 DE 7F 74 D2 54 6B B1 EC 0C 0E 52 1E EF 10 1C 95
+  79 44 1E FC 48 E1 16 B1 F1 2D B0 D6 54 C0 73 7C C7 8B BC 8B 68 5E BA 14 75 85 E8 46 D7 2A 26 96
+  79 DE 78 4B 86 9C A2 45 2F 79 63 99 AE EE 25 4C AA CE 0D 83 ED C8 3B 99 83 98 D8 7D 8C F7 B7 09
+  99 5E 01 D9 AC 2A F8 A8 0B 5D 93 90 BE BC 6D ED 10 B8 F3 13 B8 A6 18 0F 40 F5 EC C1 A1 29 F4 C2
+  27 E0 38 E5 13 DC CF 68 3E 2A FD F6 11 96 52 7A E8 95 FE E2 5E C3 43 AF A7 B7 06 40 AE 33 A9 C3
+  A9 EA 4A A3 D1 36 59 3D 82 DA 8C 08 12 9B D0 15 65 13 6A 81 C6 6E DD F1 E2 86 BB 9C 8E 6C A9 CD
+  78 85 01 B7 5D 2B 9C 3D FD 0E 6F 6A E5 D5 3A 6C 20 63 A5 55 C8 88 BD 3D A3 71 50 04 A7 C1 61 25
+  CC 26 15 53 3B 3F F6 22 B1 AE 10 4E A4 A6 04 E2 0A F1 DD 75 FF 07 8E 59 07 1E 0E A8 CB 23 0A B4
+  60 19 FE 41 72 6D FA B4 9C E8 FD 1E 3F ED 8B 95 C7 2F 3A 23 B2 DB 03 AD 11 2B FE A0 4B E7 6F 70
+  B4 F4 BB 5D 1F 22 07 AA 5F 8E 5C 7B 0C 10 F4 EE 89 C2 5F 48 B9 88 CF 92 C3 34 9A 1C A6 78 66 2B
+  96 3A 05 2F C4 4D DC E0 1D EC AC 65 56 4F ED 5A 41 A5 E1 54 45 06 37 C3 B0 2F C9 5A 61 D5 59 05
+  8D 02 27 DB 55 DE 13 BC 5A DA 2C 6A 2A 6D 10 39 69 4E 88 C8 D7 1A 7C B3 21 42 A7 6E B8 92 95 BC
+  86 3D CD DE A6 D9 71 41 DB D0 CC 97 0A FE 70 0D 4A F8 0F 7F 7A B8 10 80 31 87 B2 41 44 8E 42 45
+  7A 10 A7 7E 5D 5B D7 6F C1 D8 10 C9 EE F7 86 93 08 16 1D 4E E1 5D 70 17 F9 ED 7D D6 58 2F AB 12
+  47 E8 B9 77 14 2A E9 34 79 EA 6C BC A5 1B DD A9 8A 21 6A B7 F8 55 20 EE 8D FD 9F B1 2C A8 B9 1B
+  68 EF 01 0B FE 1B 1E 1B 77 92 15 D8 76 8D F8 C5 5E 0C B5 E3 11 D6 AB D0 CB C5 AF 4A 67 43 73 9D
+  62 7A B6 E5 DA 18 B7 5F F2 D4 7C 74 54 B3 C2 D0 42 8B DF 1B 8E 01 5E EB D0 EC C7 0D 0C 69 6C 0D
+  EA 5D 80 67 D4 AC E8 5D B7 3D 8B C5 68 95 85 44 07 CF 28 D7 84 D9 42 E2 98 9F EE A3 13 85 F6 AF
+  52 C3 2F C4 06 B4 32 E6 64 24 4B 5E 0D 5F D5 90 09 C3 18 B9 EE 79 72 51 BF 49 09 F3 DD AD AC FB
+  34 58 D7 BA D0 8B 04 00 C1 AC 9C B3 F6 74 5F 6D D6 5D 17 E1 F5 A5 0D 4A 70 24 84 F6 9C 68 30 04
+  AE 94 95 7F E8 82 22 B5 C1 54 C2 DF 1C DA BA B7 36 20 89 10 97 AD 82 21 87 92 E6 43 18 33 D7 9F
+  7D 87 23 0E A8 86 7D 16 22 EE F5 42 66 F3 70 69 83 A6 57 2B 4C 9F 06 D0 9F A9 82 7E 84 79 B6 E2
+  18 90 57 8D 81 D8 6B 95 02 89 00 96 49 5C 9F 8D 22 8B 2E A1 CE 79 D2 96 45 AC F7 7E 73 00 AA 2F
+  7A BC 05 65 B8 EB 34 62 A1 2D 43 37 D8 C0 A5 01 66 DB FB B0 BF A1 1C 3B 9E AC C0 BA 61 05 0B 27
+  79 02 E3 93 EF 30 7A B2 C3 7A C7 83 6A C1 71 A3 65 FE EF A1 82 51 9D 43 06 44 74 CB 89 A9 2B F4
+
+Modules:
+003B0000 00F2F000 0127D2F0 D:\Program Files (x86)\Steam\steamapps\common\Euro Truck Simulator 2\bin\win_x86\eurotrucks2.exe
+770E0000 00180000 00000000 C:\Windows\SysWOW64\ntdll.dll
+74B90000 00110000 74BA3283 C:\Windows\syswow64\kernel32.dll
+769A0000 00047000 769A74C1 C:\Windows\syswow64\KERNELBASE.dll
+3AD40000 00032000 3AD49F07 D:\Program Files (x86)\Steam\steamapps\common\Euro Truck Simulator 2\bin\win_x86\steam_api.dll
+765C0000 000A1000 765D494D C:\Windows\syswow64\ADVAPI32.dll
+766E0000 000AC000 766EA472 C:\Windows\syswow64\msvcrt.dll
+769F0000 00019000 769F4975 C:\Windows\SysWOW64\sechost.dll
+767A0000 000F0000 767B0569 C:\Windows\syswow64\RPCRT4.dll
+74A40000 00060000 74A5A3B3 C:\Windows\syswow64\SspiCli.dll
+74A30000 0000C000 74A310E1 C:\Windows\syswow64\CRYPTBASE.dll
+74D10000 00C4B000 74D914F1 C:\Windows\syswow64\SHELL32.dll
+75D00000 00057000 75D19BA6 C:\Windows\syswow64\SHLWAPI.dll
+75960000 00090000 7597633B C:\Windows\syswow64\GDI32.dll
+76A10000 00100000 76A2B6FD C:\Windows\syswow64\USER32.dll
+759F0000 0000A000 759F36A0 C:\Windows\syswow64\LPK.dll
+763F0000 0009D000 764242F7 C:\Windows\syswow64\USP10.dll
+761E0000 0007B000 761E1AEE C:\Windows\syswow64\COMDLG32.dll
+69460000 0019E000 6948E6C9 C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.18837_none_41e855142bd5705d\COMCTL32.dll
+76260000 0015C000 762ABA3D C:\Windows\syswow64\ole32.dll
+76910000 0008F000 76913FB1 C:\Windows\syswow64\OLEAUT32.dll
+74CD0000 00035000 74CD145D C:\Windows\syswow64\WS2_32.dll
+76680000 00006000 76681782 C:\Windows\syswow64\NSI.dll
+76B10000 0019D000 76B117E7 C:\Windows\syswow64\SETUPAPI.dll
+74CA0000 00027000 74CA58B9 C:\Windows\syswow64\CFGMGR32.dll
+76890000 00012000 76891441 C:\Windows\syswow64\DEVOBJ.dll
+71990000 00032000 719937F1 C:\Windows\system32\WINMM.dll
+768B0000 00060000 768C158F C:\Windows\system32\IMM32.DLL
+74AB0000 000CC000 74AB168B C:\Windows\syswow64\MSCTF.dll
+014E0000 0014B000 015930F4 D:\Program Files (x86)\Steam\gameoverlayrenderer.dll
+75D60000 00005000 75D61438 C:\Windows\syswow64\psapi.dll
+38000000 009EF000 3861FCF2 D:\Program Files (x86)\Steam\steamclient.dll
+76490000 00121000 7649158E C:\Windows\syswow64\CRYPT32.dll
+76790000 0000C000 7679238E C:\Windows\syswow64\MSASN1.dll
+71190000 0001C000 7119A431 C:\Windows\system32\IPHLPAPI.DLL
+71180000 00007000 7118128D C:\Windows\system32\WINNSI.DLL
+001B0000 0002B000 001B130A C:\Windows\syswow64\imagehlp.dll
+724D0000 00009000 724D1220 C:\Windows\system32\VERSION.dll
+50040000 00111000 5005CEF7 D:\Program Files (x86)\Steam\tier0_s.dll
+773A0000 00053000 773B8E5D D:\Program Files (x86)\Steam\vstdlib_s.dll
+72810000 00008000 728110E9 C:\Windows\system32\Secur32.dll
+6C9B0000 00017000 6C9B3573 C:\Windows\system32\CRYPTSP.dll
+6C970000 0003B000 6C97128D C:\Windows\system32\rsaenh.dll
+68CA0000 00080000 68CB37C9 C:\Windows\system32\uxtheme.dll
+1ED40000 00137000 1ED69873 D:\Program Files (x86)\Steam\steam.dll
+2F680000 002C1000 2F82AC46 D:\Program Files (x86)\Steam\Steam2.dll
+1FB00000 00115000 1FB675CE D:\Program Files (x86)\Steam\DbgHelp.dll
+60000000 00021000 6000ABEE D:\Program Files (x86)\Steam\CSERHelper.dll
+770B0000 0000B000 770B1992 C:\Windows\syswow64\profapi.dll
+73610000 00030000 7362EC5C C:\Windows\system32\dinput8.dll
+5F9F0000 00009000 5F9F1120 C:\Windows\system32\HID.DLL
+75CD0000 0002F000 75CD2A35 C:\Windows\syswow64\WINTRUST.dll
+60970000 00021000 609761FF C:\PROGRA~2\Raptr\ltc_help32-106568.dll
+68FC0000 00013000 68FC1858 C:\Windows\system32\dwmapi.dll
+662A0000 001C3000 662A1A45 C:\Windows\system32\d3d9.dll
+676D0000 00006000 676D11F0 C:\Windows\system32\d3d8thk.dll
+661E0000 000B6000 6622B8B6 C:\Windows\system32\aticfx32.dll
+676C0000 0000B000 676C6781 C:\Windows\system32\atiu9pag.dll
+64A60000 00416000 64A61060 C:\Windows\system32\atiumdag.dll
+65DA0000 003E7000 65DA1000 C:\Windows\system32\atiumdva.dll
+64980000 0004C000 649AD3F2 C:\Windows\system32\DXGI.dll
+1E8A0000 0004B000 1E8BA516 D:\Program Files (x86)\DisplayFusion\Hooks\AppHookWIN6032_34A957AE-2E2C-4A15-A99C-C80A75D4AB78.dll
+27C40000 0006D000 27C6D7FD D:\Program Files (x86)\Steam\steamapps\common\Euro Truck Simulator 2\bin\win_x86\swopenal32.dll
+75F70000 00083000 75F723D2 C:\Windows\syswow64\CLBCatQ.DLL
+64690000 00039000 6469E2DE C:\Windows\System32\MMDevApi.dll
+65CA0000 000F5000 65CB0D9E C:\Windows\System32\PROPSYS.dll
+625D0000 00072000 625D1576 C:\Windows\system32\dsound.dll
+6AB60000 00025000 6AB62B71 C:\Windows\system32\POWRPROF.dll
+1EA10000 00036000 1EA19DBE C:\Windows\system32\AUDIOSES.DLL
+71110000 0003C000 7111145D C:\Windows\system32\mswsock.dll
+6B280000 00005000 6B2815DF C:\Windows\System32\wshtcpip.dll
+6B460000 00006000 6B461673 C:\Windows\System32\wship6.dll
+710A0000 00044000 710B63F9 C:\Windows\system32\DNSAPI.dll
+71090000 00006000 710914B2 C:\Windows\system32\rasadhlp.dll
+6B140000 00038000 6B14990E C:\Windows\System32\fwpuclnt.dll
+2A240000 0005A000 2A280260 D:\Program Files (x86)\Steam\steamapps\common\Euro Truck Simulator 2\bin\win_x86\plugins\ACC_Plugin.dll
+778E0000 00019000 778E24D6 D:\Program Files (x86)\Steam\steamapps\common\Euro Truck Simulator 2\bin\win_x86\plugins\ets2-telemetry-server.dll
+50020000 00019000 500221D6 D:\Program Files (x86)\Steam\steamapps\common\Euro Truck Simulator 2\bin\win_x86\plugins\ets2-telemetry.dll
+
